@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	sampleRate = 22050
+	sampleRate = 44100
 	volume     = 8000
 	fade       = 64
 )
@@ -80,7 +80,7 @@ func main() {
 		s.on = false
 	}
 	for _, n := range []int{0, 4, 7, 12} {
-		play(n, 30)
+		play(n, 60)
 	}
 
 	var keys, next uint16
