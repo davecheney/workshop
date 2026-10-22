@@ -28,4 +28,5 @@ smoketest:
 	tinygo build -o ./out/23_akatonbo.uf2           --target waveshare-rp2040-zero --size short ./23_akatonbo
 	tinygo build -o ./out/24_sht40.uf2              --target waveshare-rp2040-zero --size short ./24_sht40
 	tinygo build -o ./out/25_grove_ws2813.uf2       --target waveshare-rp2040-zero --size short ./25_grove_ws2813
+	tinygo build -o ./out/26_max98357a.uf2         --target waveshare-rp2040-zero --size short ./26_max98357a
 	tinygo build -o ./out/80_checker.uf2            --target waveshare-rp2040-zero --size short ./80_checker
